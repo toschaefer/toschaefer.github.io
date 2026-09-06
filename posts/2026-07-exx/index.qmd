@@ -2,12 +2,12 @@
 title: "Periodic Hartree-Fock and Hybrid Functionals in DFTK"
 date: "2026-07-18"
 categories: [Code]
-image: "exx3.jpeg"
+image: "exx3.png"
 ---
 
 We implemented exact exchange in the periodic and plane wave based DFTK code.
 
-![](exx3.jpeg){fig-align="center" width="30%"}
+![](exx3.png){fig-align="center" width="30%"}
 
 This exact exchange (EXX) implementation enables Hartree-Fock and hybrid functional calculation (PBE0, HSE) for periodic systems and comes with the following features:
 
