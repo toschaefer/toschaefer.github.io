@@ -1,38 +1,38 @@
 [
   {
-    "objectID": "codes.html",
-    "href": "codes.html",
-    "title": "Codes",
+    "objectID": "posts/2024-12-metals/index.html",
+    "href": "posts/2024-12-metals/index.html",
+    "title": "Publication in J. Phys. Chem. Lett",
     "section": "",
-    "text": "A list of software projects that we are involved in, either maintaining or contributing to."
+    "text": "An accurate and efficient framework for modelling the surface chemistry of ionic materials\n\n\n\n\n\nIn this publication we introduce a novel finite-size correction scheme to enable coupled cluster theory for highly accurate materials modeling of metals. Using the example of metal surface energies, which are highly relevant due to their wide range of applications, we demonstrated that this observable can be reliably reproduced with high precision for the first time."
   },
   {
-    "objectID": "codes.html#psitk",
-    "href": "codes.html#psitk",
-    "title": "Codes",
-    "section": "PsiTK",
-    "text": "PsiTK\nWe maintain the Wavefunction Toolkit (PsiTK.jl). It’s currently in the alpha stage. PsiTK is a package for developing correlated wavefunction workflows in the plane wave basis. This includes density fitting, virtual space compressions, orbital localization, etc.\nFor instance, PsiTK can be employed as an interface between DFTK and the Coupled Cluster for Solids (Cc4s) code, for CCSD(T) calculations under periodic boundary conditions.\nWe welcome contributions from the scientific community!\n PsiTK Website  GitHub"
+    "objectID": "posts/2026-03-rumpf/index.html",
+    "href": "posts/2026-03-rumpf/index.html",
+    "title": "Congratulations to Alexander Rumpf",
+    "section": "",
+    "text": "Alexander Rumpf successfully passed his Master’s exam about Fragment-Based Embedding of Correlated Wavefunction Methods for CO Adsorption on TiO2(110).\n\n\n\n\n\nIn his thesis, he systematically evaluated various fragment construction schemes to accurately capture the electronic structure of carbon monoxide adsorbed on titanium dioxide. His highly precise theoretical predictions reveal a significant discrepancy with experimental data, exposing a fascinating puzzle that highlights the complex influence of temperature, vibrations, surface defects and specific measurement techniques on the observed adsorption behavior."
   },
   {
-    "objectID": "codes.html#dftk",
-    "href": "codes.html#dftk",
-    "title": "Codes",
-    "section": "DFTK",
-    "text": "DFTK\nWe contribute to the Density Functional Toolkit (DFTK.jl).\n\nimplementation of exact exchange for Hartree-Fock and hybrid functional (PBE0, HSE) calculations.\nwe are currently working on improved solvers (DIIS) for Hartree-Fock and hybrid functionals.\n\n DFTK Website  GitHub"
+    "objectID": "posts/2024-07-preprint/index.html",
+    "href": "posts/2024-07-preprint/index.html",
+    "title": "Preprint",
+    "section": "",
+    "text": "Understanding Discrepancies of Wavefunction Theories for Large Molecules\n\n\n\n\n\nThis work demonstrates that one of the most widely-used and accurate quantum chemistry approaches – CCSD(T) theory – in certain cases binds noncovalently interacting large molecular complexes too strongly. Our findings show that a simple yet efficient modification denoted as CCSD(cT) remedies these shortcomings."
   },
   {
-    "objectID": "codes.html#vasp",
-    "href": "codes.html#vasp",
-    "title": "Codes",
-    "section": "VASP",
-    "text": "VASP\nWe have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:\n\nConvergence and Properties of Intrinsic Bond Orbitals in Solids (2025)\nSampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)\nLocal Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)\nQuartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)\n\n VASP Website"
+    "objectID": "posts/2026-07-exx/index.html",
+    "href": "posts/2026-07-exx/index.html",
+    "title": "Periodic Hartree-Fock and Hybrid Functionals in DFTK",
+    "section": "",
+    "text": "We implemented exact exchange in the periodic and plane wave based DFTK code.\n\n\n\n\n\nThis exact exchange (EXX) implementation enables Hartree-Fock and hybrid functional calculation (PBE0, HSE) for periodic systems and comes with the following features:\n\nspin-restricted and unrestricted EXX\nAdaptively Compressed Exchange (ACE)\nrestriction to \\(\\mathbf \\Gamma\\)-point sampling of the Brillouine zone\nvarious techniques to treat the Coulomb singularity at \\(G+q=0\\):\n\nProbe charge Ewald\nWigner-Seitz truncation\nSpherical truncation\nVoxel averaging\n\n\nCheck the example file in DFTK."
   },
   {
-    "objectID": "codes.html#lucon",
-    "href": "codes.html#lucon",
-    "title": "Codes",
-    "section": "Lucon",
-    "text": "Lucon\nLucon stands for Loss optimization under Unitary CONstraint and is a Julia package maintaned by us. Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function \\(L(U)\\). It can be used by providing the Eucledean derivative \\(\\Gamma_{ij} = \\partial L / \\partial u^*_{ij}\\) of the cost function. We mainly use it to construct localized Wannier orbitals from initial Bloch orbitals.\nWe welcome contributions from the scientific community!\n GitHub"
+    "objectID": "posts/2024-12-woeckinger/index.html",
+    "href": "posts/2024-12-woeckinger/index.html",
+    "title": "Congratulations to Benjamin Wöckinger",
+    "section": "",
+    "text": "Benjamin Wöckinger successfully passed his Master’s exam about orbital localization in solids.\n\n\n\n\n\nIn his thesis Orbital Localization in Solids by Riemannian Optimization he implemented and tested different optimization algorithms like BFGS, CG, and SA for orbital localization. Specifically he focused on Intrinsic Bond Orbitals (IBOs). The unitary constraints involved in orbital transformations are inherently satisfied through Riemannian optimization, where cost functions are optimized on Riemannian manifolds."
   },
   {
     "objectID": "team/tobias-schaefer.html",
@@ -70,130 +70,11 @@
     "text": "Education\nPhD in Physics | University of Vienna | 2018\nMSc in Physics | University of Vienna | 2015\nBSc in Physics | Goethe University, Frankfurt | 2012"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Schäfer Lab Home",
-    "section": "",
-    "text": "We are a research group in the domain of computational materials physics and theoretical quantum chemistry. Our work focuses on making accurate many-electron correlation methods computationally affordable for materials and large molecular complexes. We mainly work on plane-wave based approaches, coupled cluster methods, and embedding techniques.\nThe drive behind our work is practical: we want to create software tools and workflows that researches actually use. We apply our tools to study complex materials such as heterogeneous catalysts or solid electrolytes, compute high-accuracy reference databases to benchmark cheaper models, and spend a lot of our time developing and maintaining software for the broader quantum chemistry and materials physics communities."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Schäfer Lab Home",
-    "section": "",
-    "text": "We are a research group in the domain of computational materials physics and theoretical quantum chemistry. Our work focuses on making accurate many-electron correlation methods computationally affordable for materials and large molecular complexes. We mainly work on plane-wave based approaches, coupled cluster methods, and embedding techniques.\nThe drive behind our work is practical: we want to create software tools and workflows that researches actually use. We apply our tools to study complex materials such as heterogeneous catalysts or solid electrolytes, compute high-accuracy reference databases to benchmark cheaper models, and spend a lot of our time developing and maintaining software for the broader quantum chemistry and materials physics communities."
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Schäfer Lab Home",
-    "section": "News",
-    "text": "News"
-  },
-  {
-    "objectID": "theses.html",
-    "href": "theses.html",
-    "title": "Theses Available",
-    "section": "",
-    "text": "We offer engaging and challenging research projects closely aligned with our research in computational materials physics and quantum chemistry. If you’re interested, feel free to reach out to us—we’d love to hear from you!\nSupporting students and fostering the careers of young researchers are central to our group’s mission. We aim to foster an inclusive environment and particularly welcome female researchers and encourage their participation in our research. We also provide opportunities for longer-term projects, which can be divided into smaller stages, such as a Master’s thesis followed by a Doctoral thesis.\nOur research focuses on computational methods. To make the most of your research experience in our group, you should be enthusiastic about quantum mechanics, programming, and numerical methods."
-  },
-  {
-    "objectID": "theses.html#looking-for-a-bachelors-masters-or-doctoral-thesis-project",
-    "href": "theses.html#looking-for-a-bachelors-masters-or-doctoral-thesis-project",
-    "title": "Theses Available",
-    "section": "",
-    "text": "We offer engaging and challenging research projects closely aligned with our research in computational materials physics and quantum chemistry. If you’re interested, feel free to reach out to us—we’d love to hear from you!\nSupporting students and fostering the careers of young researchers are central to our group’s mission. We aim to foster an inclusive environment and particularly welcome female researchers and encourage their participation in our research. We also provide opportunities for longer-term projects, which can be divided into smaller stages, such as a Master’s thesis followed by a Doctoral thesis.\nOur research focuses on computational methods. To make the most of your research experience in our group, you should be enthusiastic about quantum mechanics, programming, and numerical methods."
-  },
-  {
-    "objectID": "theses.html#lab-philosophy",
-    "href": "theses.html#lab-philosophy",
-    "title": "Theses Available",
-    "section": "Lab Philosophy",
-    "text": "Lab Philosophy\nThe following primarily applies to graduate students but also serves as a guideline for Bachelor’s and Master’s projects.\n\nYou can expect me …\n\n… to share my overview of the research field.\n… to meet with you regularly to discuss progress and future plans.\n… to help you prepare and edit drafts of written work (e.g. thesis / papers).\n… to be supportive of your career development (e.g. reference letters, support for writing research proposals).\n… to introduce you to my scientific collaborators.\n… to recommend you suitable international conferences/workshops/schools.\n… to do my best to promote a fair, diverse and motivating work environment.\n… to be understanding of your family plans.\n\n\n\nI expect you …\n\n… to ask questions, if you don’t understand, don’t be silent!\n… to conduct research with a high level of scientific integrity. For research output, I expect you to prioritize quality over quantity.\n… to develop a broad overview of the field, a good knowledge of the key literature, the history of the field, and also having your own interpretation.\n… to respect the FAIR principle for your work.\n… to try to pursue funding opportunities (depending of your career status).\n… to treat all of your lab mates with respect.\n\n This is inspired by the lab philosophy of Bingqing Cheng. Last update 07 Jan 2025."
-  },
-  {
     "objectID": "alumni/benjamin-woeckinger.html",
     "href": "alumni/benjamin-woeckinger.html",
     "title": "Benjamin Wöckinger",
     "section": "",
     "text": "Master’s thesis: Orbital localization in solids by Riemannian optimization"
-  },
-  {
-    "objectID": "posts/2024-12-metals/index.html",
-    "href": "posts/2024-12-metals/index.html",
-    "title": "Publication in J. Phys. Chem. Lett",
-    "section": "",
-    "text": "An accurate and efficient framework for modelling the surface chemistry of ionic materials\n\n\n\n\n\nIn this publication we introduce a novel finite-size correction scheme to enable coupled cluster theory for highly accurate materials modeling of metals. Using the example of metal surface energies, which are highly relevant due to their wide range of applications, we demonstrated that this observable can be reliably reproduced with high precision for the first time."
-  },
-  {
-    "objectID": "posts/2025-10-natcomm/index.html",
-    "href": "posts/2025-10-natcomm/index.html",
-    "title": "Publication in Nature Communications",
-    "section": "",
-    "text": "Understanding discrepancies in noncovalent interaction energies from wavefunction theories for large molecules\n\n\n\n\n\nOur paper on noncovalent interactions is now published in Nature Communications. We investigate why two of the most trusted methods in quantum chemistry, CCSD(T) and DMC, have shown puzzling disagreements for large molecules. We identify an issue in the standard CCSD(T) method and show how our CCSD(cT) approach fixes this."
-  },
-  {
-    "objectID": "posts/2024-12-woeckinger/index.html",
-    "href": "posts/2024-12-woeckinger/index.html",
-    "title": "Congratulations to Benjamin Wöckinger",
-    "section": "",
-    "text": "Benjamin Wöckinger successfully passed his Master’s exam about orbital localization in solids.\n\n\n\n\n\nIn his thesis Orbital Localization in Solids by Riemannian Optimization he implemented and tested different optimization algorithms like BFGS, CG, and SA for orbital localization. Specifically he focused on Intrinsic Bond Orbitals (IBOs). The unitary constraints involved in orbital transformations are inherently satisfied through Riemannian optimization, where cost functions are optimized on Riemannian manifolds."
-  },
-  {
-    "objectID": "posts/2024-07-preprint/index.html",
-    "href": "posts/2024-07-preprint/index.html",
-    "title": "Preprint",
-    "section": "",
-    "text": "Understanding Discrepancies of Wavefunction Theories for Large Molecules\n\n\n\n\n\nThis work demonstrates that one of the most widely-used and accurate quantum chemistry approaches – CCSD(T) theory – in certain cases binds noncovalently interacting large molecular complexes too strongly. Our findings show that a simple yet efficient modification denoted as CCSD(cT) remedies these shortcomings."
-  },
-  {
-    "objectID": "posts/2024-02-rumpf/index.html",
-    "href": "posts/2024-02-rumpf/index.html",
-    "title": "Congratulations to Alexander Rumpf",
-    "section": "",
-    "text": "Alexander Rumpf successfully finished his project work Bonding Orbitals in Solids.\n\n\n\n\n\nIn this work he focused on two questions: (1) Does the suitability to construct sparse tensors of localised orbitals deteriorate for materials with small band gaps and diffuse density? (2) Are there trends in the orbital spreads or the sparsity concerning the bandgap or lattice constant? We will be publishing the intriguing results soon."
-  },
-  {
-    "objectID": "posts/2025-08-shi/index.html",
-    "href": "posts/2025-08-shi/index.html",
-    "title": "Publication in Nature Chemistry",
-    "section": "",
-    "text": "An accurate and efficient framework for modelling the surface chemistry of ionic materials\n\n\n\n\n\nBenjamin Shi has developed a new automated and open-source framework (autoSKZCAM) for molecular adsorption on ionic materials by leveraging a multilevel embedding approach. This makes it practical to apply highly accurate correlated wavefunction theory, achieving results comparable to experiments at a manageable computational cost. It was an honor to contribute to this work in a great collaboration with Benjamin X. Shi, Andrea Zen, Angelos Michaelides, and coworkers."
-  },
-  {
-    "objectID": "posts/2026-03-rumpf/index.html",
-    "href": "posts/2026-03-rumpf/index.html",
-    "title": "Congratulations to Alexander Rumpf",
-    "section": "",
-    "text": "Alexander Rumpf successfully passed his Master’s exam about Fragment-Based Embedding of Correlated Wavefunction Methods for CO Adsorption on TiO2(110).\n\n\n\n\n\nIn his thesis, he systematically evaluated various fragment construction schemes to accurately capture the electronic structure of carbon monoxide adsorbed on titanium dioxide. His highly precise theoretical predictions reveal a significant discrepancy with experimental data, exposing a fascinating puzzle that highlights the complex influence of temperature, vibrations, surface defects and specific measurement techniques on the observed adsorption behavior."
-  },
-  {
-    "objectID": "posts/2026-07-exx/index.html",
-    "href": "posts/2026-07-exx/index.html",
-    "title": "Periodic Hartree-Fock and Hybrid Functionals in DFTK",
-    "section": "",
-    "text": "We implemented exact exchange in the periodic and plane wave based DFTK code.\n\n\n\n\n\nThis exact exchange (EXX) implementation enables Hartree-Fock and hybrid functional calculation (PBE0, HSE) for periodic systems and comes with the following features:\n\nspin-restricted and unrestricted EXX\nAdaptively Compressed Exchange (ACE)\nrestriction to \\(\\mathbf \\Gamma\\)-point sampling of the Brillouine zone\nvarious techniques to treat the Coulomb singularity at \\(G+q=0\\):\n\nProbe charge Ewald\nWigner-Seitz truncation\nSpherical truncation\nVoxel averaging\n\n\nCheck the example file in DFTK."
-  },
-  {
-    "objectID": "posts/2026-03-mereto/index.html",
-    "href": "posts/2026-03-mereto/index.html",
-    "title": "Congratulations to Francesco Mereto",
-    "section": "",
-    "text": "Francesco Mereto successfully passed his Master’s exam about Virtual Orbital Space Compression via Davidson-Based techniques.\n\n\n\n\n\nIn his thesis, he developed enhanced Davidson algorithms to significantly speed up compression techniques of the virtual orbital space starting from the unbiased plane wave basis. This is particularly useful for correlation workflows (e.g., coupled cluster theory) applied to systems which include a lot of vacuum."
-  },
-  {
-    "objectID": "alumni/alexander-rumpf.html",
-    "href": "alumni/alexander-rumpf.html",
-    "title": "Alexander Rumpf",
-    "section": "",
-    "text": "Master’s thesis: Fragment-Based Embedding of Correlated Wavefunction Methods for CO Adsorption on TiO2(110)"
-  },
-  {
-    "objectID": "alumni/francesco-mereto.html",
-    "href": "alumni/francesco-mereto.html",
-    "title": "Francesco Mereto",
-    "section": "",
-    "text": "Master’s thesis: Virtual Orbital Space Compression via Davidson-Based techniques"
   },
   {
     "objectID": "team.html",
@@ -224,6 +105,97 @@
     "text": "Principal Investigator\nFor the comprehensive publication history of Tobias Schäfer, please visit his official Google Scholar profile:\n  Google Scholar\n\n\n\n\n\nLab Members\nKeeping a publication list of the team updated on a website is nearly impossible.\nInstead, you can find the individual Google Scholar accounts for the lab members linked directly on their respective profiles on our Team page."
   },
   {
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Theses Available",
+    "section": "",
+    "text": "We offer engaging and challenging research projects closely aligned with our research in computational materials physics and quantum chemistry. If you’re interested, feel free to reach out to us—we’d love to hear from you!\nSupporting students and fostering the careers of young researchers are central to our group’s mission. We aim to foster an inclusive environment and particularly welcome female researchers and encourage their participation in our research. We also provide opportunities for longer-term projects, which can be divided into smaller stages, such as a Master’s thesis followed by a Doctoral thesis.\nOur research focuses on computational methods. To make the most of your research experience in our group, you should be enthusiastic about quantum mechanics, programming, and numerical methods."
+  },
+  {
+    "objectID": "theses.html#looking-for-a-bachelors-masters-or-doctoral-thesis-project",
+    "href": "theses.html#looking-for-a-bachelors-masters-or-doctoral-thesis-project",
+    "title": "Theses Available",
+    "section": "",
+    "text": "We offer engaging and challenging research projects closely aligned with our research in computational materials physics and quantum chemistry. If you’re interested, feel free to reach out to us—we’d love to hear from you!\nSupporting students and fostering the careers of young researchers are central to our group’s mission. We aim to foster an inclusive environment and particularly welcome female researchers and encourage their participation in our research. We also provide opportunities for longer-term projects, which can be divided into smaller stages, such as a Master’s thesis followed by a Doctoral thesis.\nOur research focuses on computational methods. To make the most of your research experience in our group, you should be enthusiastic about quantum mechanics, programming, and numerical methods."
+  },
+  {
+    "objectID": "theses.html#lab-philosophy",
+    "href": "theses.html#lab-philosophy",
+    "title": "Theses Available",
+    "section": "Lab Philosophy",
+    "text": "Lab Philosophy\nThe following primarily applies to graduate students but also serves as a guideline for Bachelor’s and Master’s projects.\n\nYou can expect me …\n\n… to share my overview of the research field.\n… to meet with you regularly to discuss progress and future plans.\n… to help you prepare and edit drafts of written work (e.g. thesis / papers).\n… to be supportive of your career development (e.g. reference letters, support for writing research proposals).\n… to introduce you to my scientific collaborators.\n… to recommend you suitable international conferences/workshops/schools.\n… to do my best to promote a fair, diverse and motivating work environment.\n… to be understanding of your family plans.\n\n\n\nI expect you …\n\n… to ask questions, if you don’t understand, don’t be silent!\n… to conduct research with a high level of scientific integrity. For research output, I expect you to prioritize quality over quantity.\n… to develop a broad overview of the field, a good knowledge of the key literature, the history of the field, and also having your own interpretation.\n… to respect the FAIR principle for your work.\n… to try to pursue funding opportunities (depending of your career status).\n… to treat all of your lab mates with respect.\n\n This is inspired by the lab philosophy of Bingqing Cheng. Last update 07 Jan 2025."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Schäfer Lab Home",
+    "section": "",
+    "text": "We are a research group in the domain of computational materials physics and theoretical quantum chemistry. Our work focuses on making accurate many-electron correlation methods computationally affordable for materials and large molecular complexes. We mainly work on plane-wave based approaches, coupled cluster methods, and embedding techniques.\nThe drive behind our work is practical: we want to create software tools and workflows that researches actually use. We apply our tools to study complex materials such as heterogeneous catalysts or solid electrolytes, compute high-accuracy reference databases to benchmark cheaper models, and spend a lot of our time developing and maintaining software for the broader quantum chemistry and materials physics communities."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Schäfer Lab Home",
+    "section": "",
+    "text": "We are a research group in the domain of computational materials physics and theoretical quantum chemistry. Our work focuses on making accurate many-electron correlation methods computationally affordable for materials and large molecular complexes. We mainly work on plane-wave based approaches, coupled cluster methods, and embedding techniques.\nThe drive behind our work is practical: we want to create software tools and workflows that researches actually use. We apply our tools to study complex materials such as heterogeneous catalysts or solid electrolytes, compute high-accuracy reference databases to benchmark cheaper models, and spend a lot of our time developing and maintaining software for the broader quantum chemistry and materials physics communities."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Schäfer Lab Home",
+    "section": "News",
+    "text": "News"
+  },
+  {
+    "objectID": "codes.html",
+    "href": "codes.html",
+    "title": "Codes",
+    "section": "",
+    "text": "A list of software projects that we are involved in, either maintaining or contributing to."
+  },
+  {
+    "objectID": "codes.html#psitk",
+    "href": "codes.html#psitk",
+    "title": "Codes",
+    "section": "PsiTK",
+    "text": "PsiTK\nWe maintain the Wavefunction Toolkit (PsiTK.jl). It’s currently in the alpha stage. PsiTK is a package for developing correlated wavefunction workflows in the plane wave basis. This includes density fitting, virtual space compressions, orbital localization, etc.\nFor instance, PsiTK can be employed as an interface between DFTK and the Coupled Cluster for Solids (Cc4s) code, for CCSD(T) calculations under periodic boundary conditions.\nWe welcome contributions from the scientific community!\n PsiTK Website  GitHub"
+  },
+  {
+    "objectID": "codes.html#dftk",
+    "href": "codes.html#dftk",
+    "title": "Codes",
+    "section": "DFTK",
+    "text": "DFTK\nWe contribute to the Density Functional Toolkit (DFTK.jl).\n\nimplementation of exact exchange for Hartree-Fock and hybrid functional (PBE0, HSE) calculations.\nwe are currently working on improved solvers (DIIS) for Hartree-Fock and hybrid functionals.\n\n DFTK Website  GitHub"
+  },
+  {
+    "objectID": "codes.html#vasp",
+    "href": "codes.html#vasp",
+    "title": "Codes",
+    "section": "VASP",
+    "text": "VASP\nWe have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:\n\nConvergence and Properties of Intrinsic Bond Orbitals in Solids (2025)\nSampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)\nLocal Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)\nQuartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)\n\n VASP Website"
+  },
+  {
+    "objectID": "codes.html#lucon",
+    "href": "codes.html#lucon",
+    "title": "Codes",
+    "section": "Lucon",
+    "text": "Lucon\nLucon stands for Loss optimization under Unitary CONstraint and is a Julia package maintaned by us. Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function \\(L(U)\\). It can be used by providing the Eucledean derivative \\(\\Gamma_{ij} = \\partial L / \\partial u^*_{ij}\\) of the cost function. We mainly use it to construct localized Wannier orbitals from initial Bloch orbitals.\nWe welcome contributions from the scientific community!\n GitHub"
+  },
+  {
+    "objectID": "alumni/alexander-rumpf.html",
+    "href": "alumni/alexander-rumpf.html",
+    "title": "Alexander Rumpf",
+    "section": "",
+    "text": "Master’s thesis: Fragment-Based Embedding of Correlated Wavefunction Methods for CO Adsorption on TiO2(110)"
+  },
+  {
+    "objectID": "alumni/francesco-mereto.html",
+    "href": "alumni/francesco-mereto.html",
+    "title": "Francesco Mereto",
+    "section": "",
+    "text": "Master’s thesis: Virtual Orbital Space Compression via Davidson-Based techniques"
+  },
+  {
     "objectID": "team/maosheng-hao.html",
     "href": "team/maosheng-hao.html",
     "title": "Maosheng Hao",
@@ -236,5 +208,33 @@
     "title": "Maosheng Hao",
     "section": "",
     "text": "Doctoral researcher | MECS funded | TU Wien"
+  },
+  {
+    "objectID": "posts/2025-08-shi/index.html",
+    "href": "posts/2025-08-shi/index.html",
+    "title": "Publication in Nature Chemistry",
+    "section": "",
+    "text": "An accurate and efficient framework for modelling the surface chemistry of ionic materials\n\n\n\n\n\nBenjamin Shi has developed a new automated and open-source framework (autoSKZCAM) for molecular adsorption on ionic materials by leveraging a multilevel embedding approach. This makes it practical to apply highly accurate correlated wavefunction theory, achieving results comparable to experiments at a manageable computational cost. It was an honor to contribute to this work in a great collaboration with Benjamin X. Shi, Andrea Zen, Angelos Michaelides, and coworkers."
+  },
+  {
+    "objectID": "posts/2025-10-natcomm/index.html",
+    "href": "posts/2025-10-natcomm/index.html",
+    "title": "Publication in Nature Communications",
+    "section": "",
+    "text": "Understanding discrepancies in noncovalent interaction energies from wavefunction theories for large molecules\n\n\n\n\n\nOur paper on noncovalent interactions is now published in Nature Communications. We investigate why two of the most trusted methods in quantum chemistry, CCSD(T) and DMC, have shown puzzling disagreements for large molecules. We identify an issue in the standard CCSD(T) method and show how our CCSD(cT) approach fixes this."
+  },
+  {
+    "objectID": "posts/2026-03-mereto/index.html",
+    "href": "posts/2026-03-mereto/index.html",
+    "title": "Congratulations to Francesco Mereto",
+    "section": "",
+    "text": "Francesco Mereto successfully passed his Master’s exam about Virtual Orbital Space Compression via Davidson-Based techniques.\n\n\n\n\n\nIn his thesis, he developed enhanced Davidson algorithms to significantly speed up compression techniques of the virtual orbital space starting from the unbiased plane wave basis. This is particularly useful for correlation workflows (e.g., coupled cluster theory) applied to systems which include a lot of vacuum."
+  },
+  {
+    "objectID": "posts/2024-02-rumpf/index.html",
+    "href": "posts/2024-02-rumpf/index.html",
+    "title": "Congratulations to Alexander Rumpf",
+    "section": "",
+    "text": "Alexander Rumpf successfully finished his project work Bonding Orbitals in Solids.\n\n\n\n\n\nIn this work he focused on two questions: (1) Does the suitability to construct sparse tensors of localised orbitals deteriorate for materials with small band gaps and diffuse density? (2) Are there trends in the orbital spreads or the sparsity concerning the bandgap or lattice constant? We will be publishing the intriguing results soon."
   }
 ]

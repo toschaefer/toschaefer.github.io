@@ -22,7 +22,7 @@
 <p>We implemented exact exchange in the periodic and plane wave based DFTK code.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://toschaefer.github.io/posts/2026-07-exx/exx3.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
+<p><img src="https://toschaefer.github.io/posts/2026-07-exx/exx3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
 </figure>
 </div>
 <p>This exact exchange (EXX) implementation enables Hartree-Fock and hybrid functional calculation (PBE0, HSE) for periodic systems and comes with the following features:</p>
@@ -46,7 +46,7 @@
   <category>Code</category>
   <guid>https://toschaefer.github.io/posts/2026-07-exx/</guid>
   <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://toschaefer.github.io/posts/2026-07-exx/exx3.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://toschaefer.github.io/posts/2026-07-exx/exx3.png" medium="image" type="image/png" height="62" width="144"/>
 </item>
 <item>
   <title>Congratulations to Alexander Rumpf</title>

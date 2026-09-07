@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/team.html",
+    "items": [
+      "/team/tobias-schaefer.html",
+      "/team/maosheng-hao.html",
+      "/alumni/alexander-rumpf.html",
+      "/alumni/benjamin-woeckinger.html",
+      "/alumni/francesco-mereto.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2026-07-exx/index.html",
@@ -11,16 +21,6 @@
       "/posts/2024-12-metals/index.html",
       "/posts/2024-12-woeckinger/index.html",
       "/posts/2024-02-rumpf/index.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": [
-      "/team/tobias-schaefer.html",
-      "/team/maosheng-hao.html",
-      "/alumni/alexander-rumpf.html",
-      "/alumni/benjamin-woeckinger.html",
-      "/alumni/francesco-mereto.html"
     ]
   }
 ]
