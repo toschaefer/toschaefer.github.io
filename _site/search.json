@@ -361,6 +361,6 @@
     "href": "codes.html#lucon",
     "title": "Codes",
     "section": "Lucon",
-    "text": "Lucon\nLucon stands for Loss optimization under Unitary CONstraint and is a Julia package maintaned by us. Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function \\(L(U)\\). It can be used by providing the Eucledean derivative \\(\\Gamma_{ij} = \\partial L / \\partial u^*_{ij}\\) of the cost function. We mainly use it to construct localized Wannier orbitals from initial Bloch orbitals.\nWe welcome contributions from the scientific community!\n GitHub"
+    "text": "Lucon\nLucon stands for Loss optimization under Unitary CONstraint and is a Julia package maintaned by us. Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function \\(\\mathcal L(U)\\). It can be used by providing the Eucledean derivative \\(\\Gamma_{ij} = \\partial \\mathcal L / \\partial u^*_{ij}\\) of the cost function. We mainly use it to construct localized Wannier orbitals from initial Bloch orbitals.\nWe welcome contributions from the scientific community!\n GitHub"
   }
 ]

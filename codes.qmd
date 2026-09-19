@@ -90,7 +90,7 @@ We have made several contributions to the widely used Vienna Ab Initio Simulatio
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](images/lucon.png){width="100%"}
+![](images/LuconLogo.png){width="100%"}
 :::
 
 ::: {.column width="5%"}
@@ -99,8 +99,8 @@ We have made several contributions to the widely used Vienna Ab Initio Simulatio
 ::: {.column width="75%"}
 ## Lucon
 Lucon stands for *Loss optimization under Unitary CONstraint* and is a Julia package maintaned by us.
-Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function $L(U)$.
-It can be used by providing the Eucledean derivative $\Gamma_{ij} = \partial L / \partial u^*_{ij}$ of the cost function.
+Its main purpose is to find a unitary matrix which maximizes/minimizes an arbitrary cost function $\mathcal L(U)$.
+It can be used by providing the Eucledean derivative $\Gamma_{ij} = \partial \mathcal L / \partial u^*_{ij}$ of the cost function.
 We mainly use it to construct localized Wannier orbitals from initial Bloch orbitals.
 
 We welcome contributions from the scientific community!
