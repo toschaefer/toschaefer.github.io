@@ -27,9 +27,9 @@ website:
         aria-label: "Google Scholar of Tobias Schäfer"
   page-footer:
     background: light
-    #center: "Affiliated with the **[University of Luxembourg](https://www.uni.lu/)** and **[TU Wien](https://www.tuwien.at/)**"
-    center: "Affiliated with **[TU Wien](https://www.tuwien.at/)**"
-    right: "<a href='mailto:{{< var email >}}'>Contact PI</a>"
+    center: "Affiliated with the **[University of Luxembourg](https://www.uni.lu/)** and **[TU Wien](https://www.tuwien.at/)**"
+    #center: "Affiliated with **[TU Wien](https://www.tuwien.at/)**"
+    right: "<a href='mailto:{{< var email >}}'>Contact</a>"
 
 format:
   html:
