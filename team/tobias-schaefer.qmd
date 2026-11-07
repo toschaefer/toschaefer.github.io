@@ -28,8 +28,6 @@ about:
 
 ## Current position
 
-https://tcpunilu.github.io/webpage/
-
 <!--[**Research Scientist**](https://tcpunilu.com/) | University of Luxembourg -->
 [**Research Scientist**](https://tcpunilu.github.io/webpage/) | University of Luxembourg 
 <!--**Affiliated Professor** | TU Wien -->
