@@ -3,8 +3,9 @@ title: "Codes"
 ---
 
 A list of software projects that we are involved in, either maintaining or contributing to.
+Further software developed in our group will be released alongside the corresponding publications.
 
-
+<!--
 ---
 
 :::: {.columns}
@@ -28,6 +29,33 @@ We welcome contributions from the scientific community!
 
 [<i class="bi bi-globe"></i> PsiTK Website](https://toschaefer.github.io/PsiTK.jl){.btn .btn-outline-primary .btn-sm}
 [<i class="bi bi-github"></i> GitHub](https://github.com/toschaefer/PsiTK.jl){.btn .btn-dark .btn-sm}
+:::
+
+::::
+-->
+
+---
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](images/vasp-logo2.png){width="100%"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+## VASP
+
+We have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:
+
+* [Convergence and Properties of Intrinsic Bond Orbitals in Solids (2025)](https://doi.org/10.1021/acs.jctc.5c00130)
+* [Sampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)](https://doi.org/10.1063/5.0182729)
+* [Local Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)](https://doi.org/10.1063/5.0036363)
+* [Quartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)](https://doi.org/10.1063/1.4976937)
+
+[<i class="bi bi-globe"></i> VASP Website](https://vasp.at/){.btn .btn-outline-primary .btn-sm}
 :::
 
 ::::
@@ -57,33 +85,6 @@ We contribute to the Density Functional Toolkit (DFTK.jl).
 :::
 
 ::::
-
----
-
-:::: {.columns}
-
-::: {.column width="20%"}
-![](images/vasp-logo2.png){width="100%"}
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="75%"}
-## VASP
-
-We have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:
-
-* [Convergence and Properties of Intrinsic Bond Orbitals in Solids (2025)](https://doi.org/10.1021/acs.jctc.5c00130)
-* [Sampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)](https://doi.org/10.1063/5.0182729)
-* [Local Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)](https://doi.org/10.1063/5.0036363)
-* [Quartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)](https://doi.org/10.1063/1.4976937)
-
-[<i class="bi bi-globe"></i> VASP Website](https://vasp.at/){.btn .btn-outline-primary .btn-sm}
-:::
-
-::::
-
 
 ---
 
