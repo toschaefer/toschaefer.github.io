@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ecf955b64c41ebf101c6b51bf87916bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-953a95afcad4302dc9c7a2c0d19f4b63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,20 +191,52 @@ window.Quarto = {
 </header>
 
 
-<p>A list of software projects that we are involved in, either maintaining or contributing to.</p>
-<hr>
+<p>A list of software projects that we are involved in, either maintaining or contributing to. Further software developed in our group will be released alongside the corresponding publications.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"><!--
+---
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](https://toschaefer.github.io/PsiTK.jl/dev/assets/PsiTK.png){width="100%"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+## PsiTK
+We maintain the Wavefunction Toolkit (PsiTK.jl). It's currently in the alpha stage.
+PsiTK is a package for developing correlated wavefunction workflows in the plane wave basis.
+This includes density fitting, virtual space compressions, orbital localization, etc.
+
+For instance, PsiTK can be employed as an interface between DFTK and the [Coupled Cluster for Solids (Cc4s)](https://cc4s.github.io/user-manual/) code, for CCSD(T) calculations under periodic boundary conditions.
+
+We welcome contributions from the scientific community!
+
+[<i class="bi bi-globe"></i> PsiTK Website](https://toschaefer.github.io/PsiTK.jl){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-github"></i> GitHub](https://github.com/toschaefer/PsiTK.jl){.btn .btn-dark .btn-sm}
+:::
+
+::::
+--></h2>
 <div class="columns">
 <div class="column" style="width:20%;">
-<p><img src="https://toschaefer.github.io/PsiTK.jl/dev/assets/PsiTK.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/vasp-logo2.png" class="img-fluid" style="width:100.0%"></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:75%;">
-<section id="psitk" class="level2">
-<h2 class="anchored" data-anchor-id="psitk">PsiTK</h2>
-<p>We maintain the Wavefunction Toolkit (PsiTK.jl). It’s currently in the alpha stage. PsiTK is a package for developing correlated wavefunction workflows in the plane wave basis. This includes density fitting, virtual space compressions, orbital localization, etc.</p>
-<p>For instance, PsiTK can be employed as an interface between DFTK and the <a href="https://cc4s.github.io/user-manual/">Coupled Cluster for Solids (Cc4s)</a> code, for CCSD(T) calculations under periodic boundary conditions.</p>
-<p>We welcome contributions from the scientific community!</p>
-<p><a href="https://toschaefer.github.io/PsiTK.jl" class="btn btn-outline-primary btn-sm"><i class="bi bi-globe"></i> PsiTK Website</a> <a href="https://github.com/toschaefer/PsiTK.jl" class="btn btn-dark btn-sm"><i class="bi bi-github"></i> GitHub</a></p>
+<section id="vasp" class="level2">
+<h2 class="anchored" data-anchor-id="vasp">VASP</h2>
+<p>We have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:</p>
+<ul>
+<li><a href="https://doi.org/10.1021/acs.jctc.5c00130">Convergence and Properties of Intrinsic Bond Orbitals in Solids (2025)</a></li>
+<li><a href="https://doi.org/10.1063/5.0182729">Sampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)</a></li>
+<li><a href="https://doi.org/10.1063/5.0036363">Local Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)</a></li>
+<li><a href="https://doi.org/10.1063/1.4976937">Quartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)</a></li>
+</ul>
+<p><a href="https://vasp.at/" class="btn btn-outline-primary btn-sm"><i class="bi bi-globe"></i> VASP Website</a></p>
 </section>
 </div>
 </div>
@@ -229,26 +261,6 @@ window.Quarto = {
 <hr>
 <div class="columns">
 <div class="column" style="width:20%;">
-<p><img src="images/vasp-logo2.png" class="img-fluid" style="width:100.0%"></p>
-</div><div class="column" style="width:5%;">
-
-</div><div class="column" style="width:75%;">
-<section id="vasp" class="level2">
-<h2 class="anchored" data-anchor-id="vasp">VASP</h2>
-<p>We have made several contributions to the widely used Vienna Ab Initio Simulation Package (VASP). For instance, these include:</p>
-<ul>
-<li><a href="https://doi.org/10.1021/acs.jctc.5c00130">Convergence and Properties of Intrinsic Bond Orbitals in Solids (2025)</a></li>
-<li><a href="https://doi.org/10.1063/5.0182729">Sampling the Reciprocal Coulomb Potential in Finite Anisotropic Cells (2023)</a></li>
-<li><a href="https://doi.org/10.1063/5.0036363">Local Embedding of Coupled Cluster Theory into the Random Phase Approximation using Plane Waves (2021)</a></li>
-<li><a href="https://doi.org/10.1063/1.4976937">Quartic Scaling MP2 for Solids: A Highly Parallelized Algorithm in the Plane Wave Basis (2017)</a></li>
-</ul>
-<p><a href="https://vasp.at/" class="btn btn-outline-primary btn-sm"><i class="bi bi-globe"></i> VASP Website</a></p>
-</section>
-</div>
-</div>
-<hr>
-<div class="columns">
-<div class="column" style="width:20%;">
 <p><img src="images/LuconLogo.png" class="img-fluid" style="width:100.0%"></p>
 </div><div class="column" style="width:5%;">
 
@@ -263,6 +275,7 @@ window.Quarto = {
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
